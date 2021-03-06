@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  django-app:
+  mysite:
     build: '.'
     env_file:
       - 'mysite/.env'
