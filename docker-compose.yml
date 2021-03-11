@@ -4,6 +4,6 @@ services:
   mysite:
     build: '.'
     env_file:
-      - 'mysite/.env'
+      - '.env'
     ports:
       - '8000:8000'

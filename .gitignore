@@ -1,12 +1,13 @@
 # Environment
+env
 env/
-# backend/.env
-# backend/.env-prod
+.env*
 
 # Database
 db.sqlite3
 
 # Static files
+myblog/static/*
 static/
 
 # Media files
